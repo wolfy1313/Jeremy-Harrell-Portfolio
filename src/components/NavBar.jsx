@@ -6,16 +6,16 @@ const NavBar = () => {
   return (
     <div>
       <div>
-        <Link to='/' className='headerLink'>
+        <Link to='/' className='text-3xl font-bold underline'>
           Home
         </Link>
-        <Link to='/projects' className='headerLink'>
+        <Link to='/projects' className='text-3xl font-bold underline'>
           Projects
         </Link>
-        <Link to='/about' className='headerLink'>
+        <Link to='/about' className='text-3xl font-bold underline'>
           About
         </Link>
-        <Link to='/resume' className='headerLink'>
+        <Link to='/resume' className='text-3xl font-bold underline'>
           Resume
         </Link>
       </div>
