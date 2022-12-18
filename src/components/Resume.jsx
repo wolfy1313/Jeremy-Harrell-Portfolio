@@ -1,8 +1,15 @@
 import React from 'react'
+import JeremyHarrellSEIResumePNG from '../assets/JeremyHarrellSEResumePNG.png'
 
 const Resume = () => {
+
+
   return (
-    <div>Resume</div>
+    <div className='portfolioHome'>
+      <h1 className='pageTitle'>Resume</h1>
+      <img src={JeremyHarrellSEIResumePNG}/>
+      <h2 className='myTitle'>Junior Software Engineer</h2>
+    </div>
   )
 }
 

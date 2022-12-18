@@ -1,11 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Navbar, Container } from 'react-bootstrap'
 
 const NavBar = () => {
   return (
     <div>
-      <div>
+      <div className='navMain'>
         <Link to='/' className='text-3xl font-bold underline'>
           Home
         </Link>

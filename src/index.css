@@ -11,6 +11,7 @@
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  font-family: 'Kumbh Sans', sans-serif;
 }
 
 html {
@@ -19,4 +20,81 @@ html {
 
 ::-webkit-scrollbar {
   display: none;
+}
+
+.navMain{
+  display: flex;
+  justify-content: space-around;
+  background-color: gray;
+}
+
+.App{
+  background-color: antiquewhite;
+}
+.projectsMain{
+  padding-top: 10vh;
+  padding-left: 2vw;
+}
+
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 15vh;
+  background-color: antiquewhite;
+}
+
+.project-pic{
+  display: flex;
+  justify-content: center;
+  max-width: 50vw;
+  max-height: 50vh;
+  border: 2px solid black;
+  background-color: grey;
+  margin: 10px auto;
+}
+
+.projectsMain{
+  background-color: antiquewhite;
+}
+.projectsH1{
+  padding-top: 2vh;
+  padding-left: 5vw;
+}
+.portfolioHomeMain{
+  background-color: antiquewhite;
+}
+.portfolioHome1{
+  display: flex;
+  align-items: center;
+  background-color: antiquewhite;
+  padding-bottom: 1vh;
+}
+
+.portfolioHome2{
+  display: flex;
+}
+
+.homeInfo{
+  flex-grow: 2;
+}
+
+.homeJeremyPic{
+  max-width: 540px;
+  max-height: 540px;
+}
+
+.icons{
+  display: flex;
+  max-width: 50px;
+  max-height: 50px;
+}
+.icon-pic{
+  padding: 4px;
+}
+.aboutMeMain{
+  background-color: antiquewhite;
+}
+.body{
+  background-color: antiquewhite;
 }
