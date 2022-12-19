@@ -1,6 +1,4 @@
 import React from 'react'
-import JeremyImage from '../assets/JeremyImage.jpeg'
-import JeremyHarrell from '../assets/JeremyHarrell.mp4'
 import JeremyHarrellPhoto from '../assets/JeremyHarrellPhoto.png'
 import FrontendSkillsNew from '../assets/FrontendSkillsNew.png'
 import BackendSkills from '../assets/BackendSkills.png'
@@ -14,9 +12,10 @@ const PortfolioHome = () => {
           <img src={JeremyHarrellPhoto}/>
         </div>
         <div className='homeInfo'>
-          <h1 className='myTitle text-3xl font-bold'>Junior Software Engineer</h1>
-          <p className='myPersonalInfo text-xl'> Hi, I'm Jeremy Harrell. I am an Austin, Texas based junior software developer. I enjoy working on projects and learning new things.</p>
-          <Link to='/about' className='text-3xl font-bold underline'>
+          <h1 className='myTitle text-4xl font-bold'>Jeremy Harrell</h1>
+          <h1 className='myTitle text-3xl font-bold'>Junior Software Developer</h1>
+          <p className='myPersonalInfo text-xl font-light'> Hi, I'm Jeremy Harrell. I am an Austin, Texas based junior software developer. I enjoy working on projects and learning new things.</p>
+          <Link to='/about' className='text-2xl font-bold underline'>
           More About Me
         </Link>
         </div>

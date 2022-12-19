@@ -40,7 +40,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 15vh;
+  padding: 5vh;
   background-color: antiquewhite;
 }
 
@@ -93,6 +93,8 @@ html {
   padding: 4px;
 }
 .aboutMeMain{
+  background: antiquewhite;
+  margin-left: 5px;
   background-color: antiquewhite;
 }
 .body{
