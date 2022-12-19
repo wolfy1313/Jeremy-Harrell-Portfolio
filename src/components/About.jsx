@@ -1,5 +1,4 @@
 import React from 'react'
-import NavBar from './NavBar'
 import GithubIconSmallTransparent from '../assets/GithubIconSmallTransparent.png'
 import linkedInLogoSmallTransparentBackground from '../assets/linkedInLogoSmallTransparentBackground.png'
 import { Link } from 'react-router-dom'
@@ -19,8 +18,8 @@ const About = () => {
               </Link>
             </div>
             <div className='icons'>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/wolfy1313" className='text-xl font-bold'><img className='icon-pic' src={GithubIconSmallTransparent}/>Github</a>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeremy-harrell-softwareengineer/" className='text-xl font-bold'><img className='icon-pic' src={linkedInLogoSmallTransparentBackground}/>linkedIn</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/wolfy1313" className='text-xl font-bold'><img className='icon-pic' alt='github icon' src={GithubIconSmallTransparent}/>Github</a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jeremy-harrell-softwareengineer/" className='text-xl font-bold'><img className='icon-pic' alt='linkedIn icon' src={linkedInLogoSmallTransparentBackground}/>linkedIn</a>
             </div>
           </div>
 

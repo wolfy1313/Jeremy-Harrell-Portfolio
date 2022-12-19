@@ -7,7 +7,7 @@ const Resume = () => {
   return (
     <div className='portfolioHome'>
       <h1 className='pageTitle'>Resume</h1>
-      <img src={JeremyHarrellSEIResumePNG}/>
+      <img src={JeremyHarrellSEIResumePNG} alt="pdf of resume for jeremy harrell"/>
       <h2 className='myTitle'>Junior Software Engineer</h2>
     </div>
   )

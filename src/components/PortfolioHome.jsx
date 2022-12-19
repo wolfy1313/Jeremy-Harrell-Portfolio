@@ -9,7 +9,7 @@ const PortfolioHome = () => {
     <div className='portfolioHomeMain'>
       <div className='portfolioHome1'>
         <div className='homeJeremyPic'>
-          <img src={JeremyHarrellPhoto}/>
+          <img src={JeremyHarrellPhoto} alt="man staring at camera"/>
         </div>
         <div className='homeInfo'>
           <h1 className='myTitle text-4xl font-bold'>Jeremy Harrell</h1>
@@ -22,10 +22,10 @@ const PortfolioHome = () => {
       </div>
       <div className='portfolioHome2'>
         <div className='homeFrontEndSkills'>
-          <img src={FrontendSkillsNew}/>
+          <img src={FrontendSkillsNew} alt="list of front end skills"/>
         </div>
         <div className='homeBackEndSkills'>
-          <img src={BackendSkills}/>
+          <img src={BackendSkills}alt="list of back end skills"/>
         </div>
       </div>
     </div>
