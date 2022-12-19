@@ -29,6 +29,7 @@ html {
 }
 
 .App{
+  min-height: 100vh;
   background-color: antiquewhite;
 }
 .projectsMain{
