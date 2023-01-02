@@ -18,7 +18,7 @@ const Projects = () => {
           <Card.Title>Good Times PERN Application</Card.Title>
           <Card.Text>This is an app that allows users to login, create parties, and comment on other parties. CRUD achieved on the comments model. Created with PostgreSQL, Sequelize, and React.</Card.Text>
           <Card.Footer className='justify-content-center'>
-            <a href="https://github.com/wolfy1313/MERN-APP" target="_blank">
+            <a href="https://github.com/wolfy1313/MERN-APP" target="_blank" rel="noopener noreferrer">
               <Image className='center' src={GithubIconSmallTransparent} thumbnail roundedCircle style={{ display: "flex", width: 40}}></Image>
             </a>
           </Card.Footer>
@@ -31,7 +31,7 @@ const Projects = () => {
           <Card.Title>Good Coffee MERN Application</Card.Title>
           <Card.Text>This is an app that allows users to create, update and delete comments on selected coffee shops around Austin. Created with MongoDB, Mongoose, and React.</Card.Text>
           <Card.Footer className='justify-content-center'>
-            <a href="https://github.com/wolfy1313/MERN-APP" target="_blank">
+            <a href="https://github.com/wolfy1313/MERN-APP" target="_blank" rel="noopener noreferrer">
               <Image className='center' src={GithubIconSmallTransparent} thumbnail roundedCircle style={{ display: "flex", width: 40}}></Image>
             </a>
           </Card.Footer>
