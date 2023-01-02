@@ -1,6 +1,5 @@
 import React from 'react'
-import { Image, Stack, Row, Col } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Image, Row, Col } from 'react-bootstrap'
 import CoffeePortfolioImage from '../assets/CoffeePortfolioImage.png'
 import GoodTimesLogoForPortfolio from '../assets/GoodTimesLogoForPortfolio.png'
 import GithubIconSmallTransparent from '../assets/GithubIconSmallTransparent.png'

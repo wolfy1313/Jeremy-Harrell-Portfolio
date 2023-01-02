@@ -1,7 +1,7 @@
 import React from 'react'
 import GithubIconSmallTransparent from '../assets/GithubIconSmallTransparent.png'
 import linkedInLogoSmallTransparentBackground from '../assets/linkedInLogoSmallTransparentBackground.png'
-import { Stack, Container, Row, Image, Col, Nav, Navbar } from 'react-bootstrap'
+import { Stack, Image, Nav, Navbar } from 'react-bootstrap'
 
 const Footer = () => {
 
