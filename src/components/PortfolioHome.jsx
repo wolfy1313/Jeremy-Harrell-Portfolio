@@ -1,6 +1,5 @@
 import React from 'react'
 import JeremyHarrellPhoto from '../assets/JeremyHarrellPhoto.png'
-import { Link } from 'react-router-dom'
 import Image from 'react-bootstrap/Image'
 import { Container, Row, Col, Stack } from 'react-bootstrap'
 
@@ -15,13 +14,13 @@ const PortfolioHome = () => {
               <h5>My professional experience spans the hospitality, start-up, and e-commerce industries. As an operations and people manager of a team of 25, I have a proven track record in solving problems and trouble shooting on the fly, and understand the importance of planning ahead and effective communication. I would like to use my skills to be a part of a creative, solutions-oriented team that works hard and has fun doing it.</h5></Col>
         </Stack>
       </Row>
-      <Row>
+      {/* <Row>
         <Stack direction="horizontal" gap={3}>
             <Link to='/about' className='text-2xl font-bold underline mb-5'>
             More About Me
           </Link>
         </Stack>
-      </Row>
+      </Row> */}
       <div className='content'>
       </div>
     </Container>

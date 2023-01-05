@@ -6,8 +6,8 @@ import { Stack, Image, Nav, Navbar } from 'react-bootstrap'
 const Footer = () => {
 
   return (
-
-    <Navbar fixed='bottom' bg='dark' expand="lg" variant='dark' className='justify-content-center'>
+    <footer className='page-footer font-small pt-4'>
+    <Navbar bg='dark' expand="lg" variant='dark' className='justify-content-center'>
       <Nav>
           <Stack direction='horizontal' gap={2}>
             <Nav.Link href='https://github.com/wolfy1313'>
@@ -19,6 +19,7 @@ const Footer = () => {
           </Stack>
       </Nav>
     </Navbar>
+    </footer>
   )
 }
 

@@ -18,19 +18,21 @@ const NavBar = () => {
 
 
   return (
-    <Navbar fixed="top" bg="dark" expand="lg" variant='dark'>
-      {/* <Container> */}
-        <Navbar.Brand href="#home">Jeremy Harrell <span>Software Engineer</span></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav"className="justify-content-end">
-          <Nav >
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
-            <Nav.Link onClick={handleClick}>Resume</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      {/* </Container> */}
-    </Navbar>
+    <header>
+      <Navbar bg="dark" expand="lg" variant='dark' >
+        {/* <Container> */}
+          <Navbar.Brand href="/"><h1>Jeremy Harrell</h1> <h5 className='title'>Software Engineer</h5></Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav"className="justify-content-end">
+            <Nav >
+              <Nav.Link href="/projects">Projects</Nav.Link>
+              {/* <Nav.Link href="/projects-copy">ProjectsCopy</Nav.Link> */}
+              <Nav.Link onClick={handleClick}>Resume</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        {/* </Container> */}
+      </Navbar>
+    </header>
   );
 }
 
