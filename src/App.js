@@ -10,14 +10,14 @@ function App() {
   return (
     <div className='App'>
         <NavBar />
+        <div id='mainContent'>
         <PortfolioHome />
       <main onLoad={window.scroll(0,0)} className='body'>
         <Routes>
           <Route path='/' element={ <Projects /> } />
-          <Route path='/projects' element={ <Projects /> } />
-          <Route path='/projects-copy' element={ <ProjectsCopy /> } />
         </Routes>
       </main>
+      </div> 
         <Footer />
     </div>
   )

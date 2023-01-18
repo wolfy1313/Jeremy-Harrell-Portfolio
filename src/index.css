@@ -51,101 +51,100 @@ nav.navbar{
 margin-right: 10px;
 opacity: .745;
 }
-/* * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  box-sizing: border-box;
-  list-style: none;
+
+#header{
+justify-content: space-between!important;
+text-align: center;
+padding: 15px;
+max-height: 100px;
+min-height: 100px;
+}
+
+#navImage{
+  max-width: 100px;
+  border: 3px solid #f8f8f8;
+}
+
+body{
+  background-color: #f8f8f8;
+}
+.myPersonalInfo{
+  font-family: 'Rock Salt', cursive;
+  margin-bottom: 15px;
+}
+
+#mainContent{
+  height: calc(100% - 216px);
+  overflow: auto;
+}
+.navbar-brand{
+  display: none!important;
+  visibility: hidden;
+  width: 0;
+}
+
+#basic-navbar-nav{
+  width: 100%;
+  justify-content: center!important;
+}
+#resumeLink a {
+  color: inherit;
   text-decoration: none;
-  font-family: 'Kumbh Sans', sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+#resumeLink a {
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 0),
+      rgba(100, 200, 200, 0)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+#resumeLink a:hover {
+  background-size: 0 3px, 100% 3px;
 }
 
-::-webkit-scrollbar {
-  display: none;
+#resumeLink {
+  text-align: center;
+  margin-top: 15px;
 }
 
-.navMain{
-  display: flex;
-  justify-content: space-around;
-  background-color: gray;
-}
 
-.App{
-  min-height: 100vh;
-  background-color: antiquewhite;
+@media screen and (min-width: 688px) {
+  /* .navbar-brand {
+    display:block!important;
+    visibility: visible;
+    width: inherit;
+  } */
+  #navImage {  
+    position: relative;
+    top: 50px;
+    max-width: 250px;
+    border: 6px solid #f8f8f8;
+  }
+  #basic-navbar-nav{
+    justify-content: center!important;
+    width: 100%;
+    padding: 0;
+  
+  }
+  #header{
+    max-height: 200px;
+    min-height: 200px;
+    margin-bottom: 50px;
+  }
+  #mainContent{
+    height: calc(100% - 316px);
+    overflow: auto;
+  }
 }
-.projectsMain{
-  padding-top: 10vh;
-  padding-left: 2vw;
-}
-
-.projects{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 5vh;
-  background-color: antiquewhite;
-}
-
-.project-pic{
-  display: flex;
-  justify-content: center;
-  max-width: 50vw;
-  max-height: 50vh;
-  border: 2px solid black;
-  background-color: grey;
-  margin: 10px auto;
-}
-
-.projectsMain{
-  background-color: antiquewhite;
-}
-.projectsH1{
-  padding-top: 2vh;
-  padding-left: 5vw;
-}
-.portfolioHomeMain{
-  background-color: antiquewhite;
-}
-.portfolioHome1{
-  display: flex;
-  align-items: center;
-  background-color: antiquewhite;
-  padding-bottom: 1vh;
-}
-
-.portfolioHome2{
-  display: flex;
-}
-
-.homeInfo{
-  flex-grow: 2;
-}
-
-.homeJeremyPic{
-  max-width: 540px;
-  max-height: 540px;
-}
-
-.icons{
-  display: flex;
-  max-width: 50px;
-  max-height: 50px;
-}
-.icon-pic{
-  padding: 4px;
-}
-.aboutMeMain{
-  background: antiquewhite;
-  margin-left: 5px;
-  background-color: antiquewhite;
-}
-.body{
-  background-color: antiquewhite;
-} */

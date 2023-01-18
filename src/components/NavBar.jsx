@@ -1,6 +1,8 @@
 import React from 'react'
 import Nav from 'react-bootstrap/Nav';
-import { Navbar } from 'react-bootstrap';
+import { Navbar, Image, Header } from 'react-bootstrap';
+import JeremyPhotoNoText from '../assets/JeremyPhotoNoText.png'
+import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils';
 
 const NavBar = () => {
 
@@ -19,17 +21,18 @@ const NavBar = () => {
 
   return (
     <header>
-      <Navbar bg="dark" expand="lg" variant='dark' >
+      <Navbar bg="dark" expand="lg" variant='dark'id='header' >
         {/* <Container> */}
-          <Navbar.Brand href="/"><h1>Jeremy Harrell</h1> <h5 className='title'>Software Engineer</h5></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav"className="justify-content-end">
-            <Nav >
-              <Nav.Link href="/projects">Projects</Nav.Link>
+          {/* <Navbar.Brand href="/" ><h1>Jeremy Harrell</h1> <h5 className='title'>Software Engineer</h5></Navbar.Brand> */}
+          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+          <Navbar id="basic-navbar-nav"className="justify-content-end">
+            {/* <Nav >
+              <Nav.Link href="/projects">Projects</Nav.Link> */}
               {/* <Nav.Link href="/projects-copy">ProjectsCopy</Nav.Link> */}
-              <Nav.Link onClick={handleClick}>Resume</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+              {/* <Nav.Link onClick={handleClick}>Resume</Nav.Link>
+            </Nav> */}
+            <Image className="navImage" id='navImage' src={JeremyPhotoNoText} alt="man staring at camera" roundedCircle></Image>
+          </Navbar>
         {/* </Container> */}
       </Navbar>
     </header>
