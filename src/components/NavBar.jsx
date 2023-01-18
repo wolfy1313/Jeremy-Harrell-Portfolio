@@ -1,22 +1,21 @@
 import React from 'react'
-import Nav from 'react-bootstrap/Nav';
-import { Navbar, Image, Header } from 'react-bootstrap';
+// import Nav from 'react-bootstrap/Nav';
+import { Navbar, Image } from 'react-bootstrap';
 import JeremyPhotoNoText from '../assets/JeremyPhotoNoText.png'
-import { isLabelWithInternallyDisabledControl } from '@testing-library/user-event/dist/utils';
 
 const NavBar = () => {
 
-  const handleClick = () => {
-    fetch('JeremyHarrellUpdatedResume.pdf').then(response => {
-      response.blob().then(blob => {
-        const fileURL = window.URL.createObjectURL(blob)
-        let alink = document.createElement('a');
-        alink.href = fileURL;
-        alink.download = 'JeremyHarrellUpdatedResume.pdf';
-        alink.click()
-      })
-    })
-  }
+  // const handleClick = () => {
+  //   fetch('JeremyHarrellUpdatedResume.pdf').then(response => {
+  //     response.blob().then(blob => {
+  //       const fileURL = window.URL.createObjectURL(blob)
+  //       let alink = document.createElement('a');
+  //       alink.href = fileURL;
+  //       alink.download = 'JeremyHarrellUpdatedResume.pdf';
+  //       alink.click()
+  //     })
+  //   })
+  // }
 
 
   return (

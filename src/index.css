@@ -68,6 +68,10 @@ min-height: 100px;
 body{
   background-color: #f8f8f8;
 }
+
+body * {
+  font-family: Kumbh;
+}
 .myPersonalInfo{
   font-family: 'Rock Salt', cursive;
   margin-bottom: 15px;
