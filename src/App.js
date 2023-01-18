@@ -13,7 +13,7 @@ function App() {
         <PortfolioHome />
       <main onLoad={window.scroll(0,0)} className='body'>
         <Routes>
-          <Route path='/' element={ <PortfolioHome /> } />
+          <Route path='/' element={ <Projects /> } />
           <Route path='/projects' element={ <Projects /> } />
           <Route path='/projects-copy' element={ <ProjectsCopy /> } />
         </Routes>
