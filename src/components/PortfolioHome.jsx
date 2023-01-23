@@ -4,12 +4,12 @@ import { Container, Row, Col, Stack } from 'react-bootstrap'
 const PortfolioHome = () => {
 
   const handleClick = () => {
-    fetch('JeremyHarrellUpdatedResume.pdf').then(response => {
+    fetch('JeremyHarrellUpdatedResumeNew.pdf').then(response => {
       response.blob().then(blob => {
         const fileURL = window.URL.createObjectURL(blob)
         let alink = document.createElement('a');
         alink.href = fileURL;
-        alink.download = 'JeremyHarrellUpdatedResume.pdf';
+        alink.download = 'JeremyHarrellUpdatedResumeNew.pdf';
         alink.click()
       })
     })
