@@ -32,4 +32,3 @@ const PortfolioHome = () => {
 
 export default PortfolioHome
 
-//choose fonts that work
